@@ -3,7 +3,7 @@ import pyb
 from pyb import Pin
 from pyb import delay, udelay,millis
 from tpyb_lcd1602 import TPYBoardLcd1602Api
-from tpyb_gpio_lcd1602 import TPYBoardGpioLcd1602
+from LCD1602 import TPYBoardGpioLcd1602
 
 lcd = TPYBoardGpioLcd1602(rs_pin=Pin.board.Y10,
               enable_pin=Pin.board.Y9,
