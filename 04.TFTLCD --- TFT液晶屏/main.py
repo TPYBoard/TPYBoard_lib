@@ -16,15 +16,15 @@ indexes_chinese12="文字测试"
 indexes_roman="0123456789"
 
 tft.init_str(font1.FONT().f16,indexes_chinese16)
-tft.write_str(75,82,16,16,"液晶屏",0)
+tft.write_str(75,10,16,16,"液晶屏",0)
 
 tft.init_str(font1.FONT().f12,indexes_chinese12)
-tft.write_str(86,104,16,12,"测试",255)
+tft.write_str(86,30,16,12,"测试",255)
 
 tft.init_str(font1.FONT().fnum,indexes_roman)
-tft.write_str(86,122,8,16,"149",TFT.RED)
+tft.write_str(86,50,8,16,"149",TFT.RED)
 
-tft.write_pictuer(0,80,72,75,font1.image().pictuer,TFT.BRED)
+tft.write_pictuer(5,40,72,75,font1.image().pictuer,TFT.BRED)
 
 gc.enable()
 gc.collect()
